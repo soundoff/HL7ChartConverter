@@ -1,9 +1,0 @@
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\bin\Debug\ChartAnalyzer.exe
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\bin\Debug\ChartAnalyzer.pdb
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\bin\Debug\Microsoft.Office.Interop.Word.dll
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\obj\Debug\ChartAnalyzer.Properties.Resources.resources
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\obj\Debug\ChartConverter.WordPlayTest.resources
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\obj\Debug\ChartAnalyzer.csproj.GenerateResource.Cache
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\obj\Debug\ChartAnalyzer.exe
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\obj\Debug\ChartAnalyzer.pdb

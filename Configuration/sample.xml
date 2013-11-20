@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Lakeview Medical Koduri Configuration Current -->
+<!-- Sample Configuration File -->
 <Process>
 <Splitting>
 	<SplitFiles>False</SplitFiles>
@@ -16,7 +16,7 @@
     <FileNaming>
       <Rename>False</Rename>
       <NameParts></NameParts>
-      <Extension>tif</Extension>
+      <Extension>doc</Extension>
     </FileNaming>
   </Type>
   <Type>
@@ -29,20 +29,20 @@
     <FileNaming>
       <Rename>False</Rename>
       <NameParts></NameParts>
-      <Extension>tif</Extension>
+      <Extension>doc</Extension>
     </FileNaming>
   </Type>
   <Type>
     <Description>Pnote</Description>
     <HowToDetermine>
-      <Start>(\d{1,2}/\d{1,2}/\d{2,4})\x09[\w\d\x20\x2e\x2c\x2f]+\x09\d{1,10}</Start>
-      <End>\x09\x01\x0d\x09[\w\d\x20\x2e\x2c\x2f]+\x0d</End>
+      <Start>(\d{1,2}/\d{1,2}/\d{2,4})\x09[\w\d\x20\x2e\x2c\x2f\x2d\xe2\x80\x99]+\x09\d{1,10}</Start>
+      <End>\x09\x01\x0d\x09{0,3}[\w\d\x20\x2e\x2c\x2f]+\x0d</End>
     </HowToDetermine>
     <SplitMe>True</SplitMe>
     <FileNaming>
       <Rename>True</Rename>
       <NameParts>VisitDate|Demographics.LastName|Demographics.FirstName|ChartNumber</NameParts>
-      <Extension>tif</Extension>
+      <Extension>doc</Extension>
     </FileNaming>
   </Type>
 </TypesOfDocuments>
@@ -189,7 +189,7 @@
         <Description>ChartNumber</Description>
         <HowToFind>
           <PartOf></PartOf>
-          <Start>\d{3,6}</Start>
+          <Start>[\x0d\x09]MRN:[\x09|\x20]{0,3}\d{3,6}</Start>
           <End></End>
           <FrontTrim></FrontTrim>
           <EndTrim></EndTrim>
@@ -220,7 +220,7 @@
         <Description>Header</Description>
         <HowToFind>
           <PartOf></PartOf>
-          <Start>(\d{1,2}/\d{1,2}/\d{2,4})\x09[\w\d\x20\x2e\x2c\x2f]+\x09\d{1,10}</Start>
+          <Start>(\d{1,2}/\d{1,2}/\d{2,4})\x09[\w\d\x20\x2e\x2c\x2f\x2d\xe2\x80\x99]+\x09\d{1,10}</Start>
           <End></End>
           <FrontTrim></FrontTrim>
           <EndTrim></EndTrim>
@@ -233,7 +233,7 @@
         <Description>Demographics.FirstName</Description>
         <HowToFind>
           <PartOf>Header</PartOf>
-          <Start>, \w+\x09</Start>
+          <Start>, [\w\x20]+\x09</Start>
           <End></End>
           <FrontTrim></FrontTrim>
           <EndTrim></EndTrim>
@@ -246,7 +246,7 @@
         <Description>Demographics.LastName</Description>
         <HowToFind>
           <PartOf>Header</PartOf>
-          <Start>\x09\w+(?: Jr)?</Start>
+          <Start>\x09[\w\x2d]+(?: Jr)?</Start>
           <End></End>
           <FrontTrim></FrontTrim>
           <EndTrim></EndTrim>
@@ -310,10 +310,10 @@
       <SSN></SSN>
     </Demographics>
     <Provider>
-      <ID>"David Z Zeiler"</ID>
-      <LastName>"Zeiler"</LastName>
-      <FirstName>"David"</FirstName>
-      <MiddleInitial>"Z"</MiddleInitial>
+      <ID>"Some Doctor Name"</ID>
+      <LastName>"Joe"</LastName>
+      <FirstName>"Schmoe"</FirstName>
+      <MiddleInitial></MiddleInitial>
       <Title></Title>
       <Suffix></Suffix>
       <UPIN></UPIN>
@@ -326,11 +326,10 @@
       <DateTime>VisitDate</DateTime>
       <Format>"SINGLE_PAGE_IMAGE"</Format>
       <Subject></Subject>
-      <Comment></Comment>
+      <Comment>%DOCTYPE%</Comment>
       <Path>%PATH%</Path>
       <Number>"1"</Number>
     </Notes>
   </Defaults>
 </HL7XML>
 </Process>	
-

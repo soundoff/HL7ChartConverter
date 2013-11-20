@@ -1,9 +1,0 @@
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\bin\Release\ChartAnalyzer.exe
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\bin\Release\ChartAnalyzer.pdb
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\bin\Release\Microsoft.Office.Interop.Word.dll
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\obj\Release\ResolveAssemblyReference.cache
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\obj\Release\ChartAnalyzer.Properties.Resources.resources
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\obj\Release\ChartConverter.WordPlayTest.resources
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\obj\Release\ChartAnalyzer.csproj.GenerateResource.Cache
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\obj\Release\ChartAnalyzer.exe
-C:\Documents and Settings\Shaun Sandlin\My Documents\Visual Studio 2008\Projects\ChartConverter\ChartAnalyzer\obj\Release\ChartAnalyzer.pdb
